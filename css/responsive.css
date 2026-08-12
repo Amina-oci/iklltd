@@ -1,0 +1,177 @@
+@media only screen and (max-width:1250px) {
+.media_list_inner{width: 95%;}
+}
+
+@media only screen and (max-width:1210px) {
+.benefit_list_inner{width: 95%;}
+.annual_report_inner{width: 95%;}
+.business_inner{width: 95%;}
+}
+
+@media only screen and (max-width:1200px) {
+nav ul li{margin-right:12px;}
+#drop_down_menu{left: -10px;}
+}
+
+@media only screen and (max-width:1150px) {
+.people_inner{width: 95%;}
+.latestNews_inner{width: 95%;}
+.footer_link{padding:0 0 0 5%; width: 33%;}
+.aboutus_inner_container{width: 95%;}
+.about_people_inner{width: 95%;}
+.infra_inner_container{width: 95%;}
+.media_inner_container{width: 95%;}
+.about_people_right ul li{width:23%; margin: 0 0 50px 2%;}
+}
+
+@media only screen and (max-width:1070px) {
+     .footer_inner{width: 95%;}
+     .gallery_inner{width: 95%;}
+     
+}
+
+@media only screen and (max-width:999px) {
+     nav{display: none; float: left; width: 100%; background: #fff; margin:0px;}
+     nav ul{float: left; width: 100%;}
+     nav ul li{float: left; width: 100%; margin: 0px; border-bottom: 1px solid #f5f5f5;}
+     nav ul li a{float: left; width: 100%; text-align: center; padding:9px 10px; color: #378b33; }
+     nav ul li a:hover{background: #378b33; color: #fff;padding:9px 10px; border-bottom: none;}
+     nav ul li a.active{background: #378b33; color: #fff;padding:9px 10px; border-bottom: none;}
+     nav ul li a span{border: none;}
+     .toggle_nav{display:block;}
+     
+     #drop_down_menu{position: static;float: left; width: 100%;}
+     #drop_down_menu ul{margin: 0px;}
+     #drop_down_menu ul li{border-bottom: 1px solid #f5f5f5;}
+     #drop_down_menu ul li a{background: #fff; color: #378b33; padding:9px 10px; border-bottom:none;}
+     #drop_down_menu ul li a:hover{color: #fff; border-bottom:none;}
+     
+     .about_container{padding: 0 0 0 0px;}
+     .about_inner{width:55%;}
+     .benefit_heading h2{font-size: 20px; line-height: 22px;}
+     .benefit_hide_heading h3{font-size: 20px; line-height: 22px;}
+     .benefit_hide_heading p{display: none; font-size: 14px; line-height: 18px;}
+     
+     .quick_link{width: 100%; background: none; padding: 0 0 0 0px; margin:30px 0 25px 0px; text-align: center;}
+     .quick_link ul li{float: none; margin: 5px 10px; display: inline-block; width: auto;}
+     
+     .benefit_list ul li h1{font-size: 16px;}
+     
+     .about_people_right ul li{width:30%; margin: 0 0 50px 3%;}
+     
+     .bx-prev{top:80%; right: 10px;}
+     .bx-next{top: 90%; right: 10px;}
+     
+}
+
+@media only screen and (max-width:767px) {     
+     .benefit_container{padding: 20px 0 10px 0px;}
+     .people_left{width: 100%; text-align: center; padding: 0 0 25px 0%; margin: 0 0 25px 0px; border-bottom: 1px solid #dfd8d4; border-right:none;}
+     .people_left h1{font-size: 26px; line-height: 30px;}
+     .people_right{width: 100%; padding: 0 0 0 0px;}
+     .people_right ul li{width: 42%; margin: 0 0 30px 5%;}
+     .people_right h2{text-align: center;}
+     .people_right p{text-align: center;}
+     /* .people_viewMore{margin:30px 0 0 0px; text-align: center; display: inline-block;}
+     .people_viewMore a{float: none;} */
+     .latestNews_container figure{width: 100%;}
+     .latestNews_txt_container{width: 100%; padding: 15px 15px;}
+     .latestNews_txt_container h2{text-align: center;}
+     .yellow_hr{margin: 0 auto; float: none; clear: both;}
+     .latestNews_txt_container p{text-align: center;}
+     .about_inner{width:100%; text-align: center;padding:60px 10px 40px 10px;}
+     .about_inner a{float: none; display: inline-block;}
+     
+     .benefit_container ul li{width: 100%;}
+     .benefit_hide_heading p{display:block;}
+     
+   
+     .about_people_left{width: 100%; text-align: center;}
+     .about_people_left h1{font-size: 22px; line-height: 30px;}
+     .about_people_right{width: 100%; padding: 0 0 0 0px; background: none; margin: 30px 0 0 0px;}
+    
+    .about_people_right ul li{width:46%; margin: 0 0 50px 2%;}
+     .about_people_right h2{text-align: center;}
+     .about_people_right p{text-align: center;}
+     
+     .inner_banner_text p{display: none;}
+     .inner_banner_text h1{font-size: 25px;}
+     
+     .slider-copy{height: auto!important; overflow: visible;}
+     .slider-copy p{width: 100%;}
+     
+     .benefit_list ul li{width: 100%; margin: 0 0 70px 0px;}
+     
+     .annual_report_inner{padding-top: 40px;}
+     .annual_left{width: 100%; border-right:none; border-bottom: 1px solid #f2e519; margin: 0 0 20px 0px; padding:70px 0 30px 0px;}
+     .annual_right{width: 100%; text-align: center;}
+     .annual_right p{padding: 0px;}
+     .annual_right a{float: none; display: inline-block;}
+     .annual_report{padding-bottom:50px;}
+     
+     .media_list{padding: 0 0 0px 0px;}
+     .media_list ul li{width: 100%; margin: 0 0 75px 0px;}
+     
+     .gallery_container{padding: 0 0 0px 0px;}
+     
+     .benefit_container h1{font-size: 32px;}
+     .aboutus_container h1{font-size: 32px; margin-bottom: 15px;}
+     .infra_container h1{font-size: 32px; margin-bottom: 15px;}
+     
+     .aboutus_container p{font-size: 14px; line-height: 24px;}
+     .infra_container p{font-size: 14px; line-height: 24px;}
+     
+     .latestNews_container{padding: 60px 0 0 0px;}
+     
+     .blank_footer{height: 10px;}
+     .blank_inner_footer{height:50px;}
+     
+     .newspic_container img {max-width: 100%;}
+     
+     #map_canvas {height:200px;width: 100%;}
+     
+     .map_canvas {height:200px;width: 100%;}
+     
+     .team_popup{ text-align: center;}
+     .team_popup img{ float: none; width: 100px; margin: 7px auto;}
+     .team_popup h1{ float: left;}
+     .team_popup h2{ float: left;}
+     
+     .get_in_touch{width: 100%; margin:13px 0 30px 0px!important;}
+     .footer_link{width: 100%; padding: 0 0 0 0px; margin:0 0 0 0px;}
+     .footer_link_top{text-align: center; padding:50px 0 0 0px; margin: 0 0 25px 0px; text-align: center; background-position:center 0px;}
+     .footer_link_bottom{text-align: center; padding:50px 0 0 0px; text-align: center; background-position:center 0px;}
+     .footer_link_bottom a{display: inline-block; float: none;}
+     
+     .copyright{width: 100%; text-align: center; margin: 0 0 8px 0px;}
+     .created{width:130px; margin: 0 auto; float: none; clear: both; text-align: center;}
+}
+
+@media only screen and (max-width:480px) {
+     [data-widget="giant-carousel"] .giant-carousel__pagination{top: 90%!important;}
+     .banner_content h1{font-size: 14px;}
+     .banner_content h2{font-size: 18px; margin-bottom: 20px;}
+     .banner_content h3 span{font-size: 18px; letter-spacing: 0;}
+     .banner_container ul li{ height: 600px;}
+     
+     .latestNews_container ul li{width: 100%; margin: 0 0 37px 0px;}
+     
+     .about_people_right ul li{width:95%;}
+     
+     .about_inner h2{font-size: 14px;}
+     .about_inner p{font-size: 15px; line-height: 22px;}
+     
+     .layout_pdf{ text-align: center;}
+     .layout_pdf a{ font-size: 14px; padding: 10px 10px;}
+     
+     #carousel_gallery{display: none;}
+     .flexslider{ padding:0 40px;}
+     
+     
+}
+
+@media only screen and (max-width:320px) {
+     .inner_banner_text h1{font-size:22px;}
+     .about_people_left h1{font-size: 20px; line-height: 30px;}
+
+}

@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Conv_Gotham-Medium';
+	src: url('../font/Gotham-Medium.eot');
+	src: local('?'), url('../font/Gotham-Medium.woff') format('woff'), url('../font/Gotham-Medium.ttf') format('truetype'), url('../font/Gotham-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../font/gotham-book-webfont.eot');
+    src: url('../font/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-book-webfont.woff2') format('woff2'),
+         url('../font/gotham-book-webfont.woff') format('woff'),
+         url('../font/gotham-book-webfont.ttf') format('truetype'),
+         url('../font/gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamNarrow-Medium';
+  src: url('../font/GothamNarrow-Medium.eot?#iefix') format('embedded-opentype'),  url('../font/GothamNarrow-Medium.otf')  format('opentype'),
+	     url('../font/GothamNarrow-Medium.woff') format('woff'), url('../font/GothamNarrow-Medium.ttf')  format('truetype'), url('../font/GothamNarrow-Medium.svg#GothamNarrow-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_gotham-bold';
+	src: url('../font/gotham-bold.eot');
+	src: local('?'), url('../font/gotham-bold.woff') format('woff'), url('../font/gotham-bold.ttf') format('truetype'), url('../font/gotham-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

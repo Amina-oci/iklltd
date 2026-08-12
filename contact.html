@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IKBL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script src="js/jquery.js"></script>
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+<style>
+.responsive-map{
+       padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    top: 77px;
+    margin-bottom: 82px;
+}
+.responsive-map iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+</style>
+</head>
+
+<body>
+<header class="green_header" data-scrollreveal="enter top">
+    <section class="logo"><a href="index.html"><img src="images/logo.png" alt="KBL"></a></section>
+    <section class="toggle_nav"><img src="images/toggle-icon.png" alt=""></section>
+    
+    <nav>
+        <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="infrastructure.html">Infrastructure</a></li>
+<li><a href="management.html">Management</a></li>
+<li><a href="advantage.html">Advantage</a></li>
+<li><a href="tariff.html">Tariff</a></li>
+<li><a href="investor.html">Investor</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+    </nav>
+    
+</header>
+<div class="responsive-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.4168551189823!2d77.2180236148128!3d28.527187582459426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce18b6e655555%3A0xc109a928e089b008!2sIFFCO%20Sadan!5e0!3m2!1sen!2sin!4v1627510232761!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<footer class="footerInner">
+    <div class="footer_inner">        
+        <section class="get_in_touch" data-scrollreveal="enter left">
+            <section class="getin_touch_top">
+            <h1>GET IN TOUCH</h1>
+             <div class="contact"></div>
+             <form  class="form" id="contact_us_form"  method="post">
+                <input type="text" id="cname" name="name" class="req-string" placeholder="Name" >
+                <input type="hidden"  name="check" value="#$%&^)(@#$" >
+                <input type="text" placeholder="Email" class="req-email"  id="email"  name="email" >
+                <input placeholder="Phone" id="phone" type="text" name="phone" class="req-min req-numeric" minlength="5" maxlength="12" >
+                <textarea placeholder="Message" id="message" rows="3" cols="4" class="req-string" name="message" ></textarea>
+                <input id="contact_submit" type="submit" name="submit" value="Submit" class="create-user">
+                <div id="preloader" style="display:none"><img src="images/preloader.gif"></div>
+            </form>
+            </section>
+            <section class="getin_touch_bottom"></section>
+        </section>
+        
+<section class="footer_link" data-scrollreveal="enter right">
+    
+<section class="footer_link_top" >
+<h1>Address</h1>
+<p>IFFCO Sadan,<br> C-1,District Centre, Saket, <br>New Delhi-17<br>
+</p>
+
+</section>
+
+<section class="footer_link_bottom">
+<h1>Contact</h1>
+<p>PH: 011-26510001/42592626<br>
+Fax: 011-42592833/42592650<br>
+Email: <a style="width: auto; height: auto; float: none; margin: 0;" href="mailto:feedback.ikbl@iffco.in">feedback.ikll@iffco.in</a></p>
+<a class="facebook" href="#" target="_blank"></a>
+<a class="twitter" href="#" target="_blank"></a>
+<a class="linkdin" href="#" target="_blank"></a>
+</section>
+</section>
+        
+<section class="quick_link" data-scrollreveal="enter right">
+<h1>Quick Links</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="infrastructure.html">Infrastructure</a></li>
+<li><a href="management.html">Management</a></li>
+<li><a href="advantage.html">Advantage</a></li>
+<li><a href="investor.html">Investor</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</section>
+
+
+</div>
+</footer>
+
+<div class="footer_bottom" data-scrollreveal="enter bottom">
+<div class="footer_inner">
+<section class="copyright">
+        Copyright <span id="current-year"> </span> &copy; IKLL
+    </section>
+<section class="created">Created by <a href="http://www.eyebridge.in/" target="_blank">Eyebridge</a>&nbsp;&nbsp;<span><a href="http://www.eyebridge.in/" target="_blank"><img src="images/eyebridge.jpg" alt=""></a></span></section>
+</div>
+</div>
+
+
+<script>
+$( ".benefit_container ul li" ).hover(function() {
+       $( this ).find( ".benefit_hide_heading " ).stop( true, true ).animate({bottom: '0px'});
+       $( this ).find( ".benefit_heading" ).stop( true, true ).fadeOut();
+       }, function() {
+       $( this ).find( ".benefit_heading" ).stop( true, true ).fadeIn();
+       $( this ).find( ".benefit_hide_heading " ).stop( true, true ).animate({bottom: '-55%'});
+       });
+</script>
+
+<script>
+    $('.toggle_nav').click(function(){
+     $('nav').slideToggle(); 
+    });
+</script>
+
+<script>
+var windowWidth = $(window).width();
+    if ($(window).width() < 999) {
+        
+    $( "#dropDown" ).click(function() {
+       $( "#drop_down_menu " ).slideToggle();
+    });
+       
+    }
+if ($(window).width() >= 1000) {      
+    $( "#dropDown" ).hover(function() {
+       $( this ).find( "#drop_down_menu " ).stop( true, true ).fadeIn();
+       }, function() {
+       $( this ).find( "#drop_down_menu" ).stop( true, true ).fadeOut();
+    });
+}
+</script>
+
+<script type="text/javascript" src="js/scrollreveal.js"></script>
+<script type="text/javascript" src="js/scrollreveal.js"></script>
+<script type="text/javascript" src="js/custom.js" ></script>
+<script type="text/javascript" src="js/jquery.ufvalidator-1.0.4.js" ></script>
+<link rel="stylesheet" type="text/css" href="css/validation-error.css" />
+
+<script type="text/javascript" src="js/jquery.mapit.js"></script>
+<script>
+$(document).ready(function() {
+$('#map_canvas').mapit();
+});
+</script>
+
+    
+</body>
+</html>

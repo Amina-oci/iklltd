@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>IKBL</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/font.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+<script src="js/jquery.js"></script>
+
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
+
+<style>
+    .section-pdf {
+    padding: 30px 20px;
+     
+}
+
+.pdf-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.pdf-list li a {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+    color: #f04d3a;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.pdf-list li img {
+    width: 32px;
+    height: auto;
+    margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+    .pdf-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .pdf-list {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+
+
+<body>
+
+    <header class="green_header" data-scrollreveal="enter top">
+
+        <section class="logo"><a href="index.html"><img src="images/logo.png" alt="KBL"></a></section>
+
+        <section class="toggle_nav"><img src="images/toggle-icon.png" alt=""></section>
+
+
+
+        <nav>
+
+            <ul>
+<li><a  href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="infrastructure.html">Infrastructure</a></li>
+<li><a href="management.html">Management</a></li>
+<li><a href="advantage.html">Advantage</a></li>
+<li><a href="tariff.html">Tariff</a></li>
+<!-- <li><a href="pdf/tariff_pdf.pdf" target="_blank">Tariff</a></li> -->
+<li><a class="active" href="investor.html">Investor</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        </nav>
+
+
+
+    </header>
+
+
+
+    <section class="inner_banner" data-scrollreveal="enter bottom">
+
+        <section class="inner_banner_text">
+
+            <h1>Investor Relationship</h1>
+
+            <p>Committed to build the ship of trust & loyalty with the Right Approach </p>
+
+        </section>
+
+        <img src="images/investor-banner.jpg" alt="">
+
+    </section>
+
+  
+        <section class="section-pdf" style="margin: 0 55px">
+
+            <ul class="pdf-list">
+                <li  ><a href="pdf/N&R_CHARTER.pdf" target="_blank" download><img src="pdf/pdf-icon.png">N&R CHARTER</a></li>
+                <li  ><a href="pdf/RemunerationPolicy.pdf" target="_blank" download><img src="pdf/pdf-icon.png">Remuneration Policy</a></li>
+                <li   ><a href="pdf/AnnualReport2020-2021.pdf" target="_blank" download><img src="pdf/pdf-icon.png" /> Annual Report 2020-2021</a></li>
+                <li   ><a href="pdf/AnnualReport2021-2022.pdf" target="_blank" download><img src="pdf/pdf-icon.png" /> Annual Report 2021-2022</a></li>
+                <li   ><a href="pdf/Annual Report2022-2023.pdf" target="_blank" download><img src="pdf/pdf-icon.png" /> Annual Report 2022-2023</a></li>
+
+                <li><a href="pdf/AnnualReturn2021-2022.pdf" target="_blank" download><img src="pdf/pdf-icon.png" /> Annual Return 2021-2022</a></li>
+                <li   ><a href="pdf/AnnualReturn2022-2023.pdf" target="_blank" download><img src="pdf/pdf-icon.png" /> Annual Return 2022-2023</a></li>
+                <li   ><a href="pdf/MGT-9-ExtractofAnnualReturn2021-2022.pdf" target="_blank" download><img src="pdf/pdf-icon.png" />Extract of Annual Return(2021-2022)</a></li>
+                <li  ><a href="pdf/ExtractofAnnualReturn2022-2023.pdf" target="_blank" download><img src="pdf/pdf-icon.png" />Extract of Annual Return(2022-2023)</a></li>
+                <!-- <li  ><a href="" download><img src="pdf/pdf-icon.png">annual report</a></li> -->
+
+               <li ><a href="pdf/Notice-21st AGM.pdf" target="_blank" download><img src="pdf/pdf-icon.png" />Notice-21st AGM</a></li>
+              <li  >
+                <a href="pdf/MGT-9-Extract of Annual Return 2024-25-1.doc" target="_blank" download><img src="pdf/pdf-icon.png" />MGT-9-Extract of Annual Return 2024-25-1</a></li>
+               <li  >
+                <a href="pdf/CSRpolicy.pdf" target="_blank" download><img src="pdf/pdf-icon.png" />
+                    CORPORATE SOCIAL RESPONSIBILITY POLICY</a></li>
+               
+            </ul>
+
+        </section>
+    <br><br><br><br>
+          
+    <footer class="footerInner">
+
+        <div class="footer_inner">
+
+            <section class="get_in_touch" data-scrollreveal="enter left">
+
+                <section class="getin_touch_top">
+
+                    <h1>GET IN TOUCH</h1>
+
+                    <div class="contact"></div>
+
+                    <form class="form" id="contact_us_form" method="post">
+
+                        <input type="text" id="cname" name="name" class="req-string" placeholder="Name">
+
+                        <input type="hidden" name="check" value="#$%&^)(@#$">
+
+                        <input type="text" placeholder="Email" class="req-email" id="email" name="email">
+
+                        <input placeholder="Phone" id="phone" type="text" name="phone" class="req-min req-numeric" minlength="5" maxlength="12">
+
+                        <textarea placeholder="Message" id="message" rows="3" cols="4" class="req-string" name="message"></textarea>
+
+                        <input id="contact_submit" type="submit" name="submit" value="Submit" class="create-user">
+
+                        <div id="preloader" style="display:none"><img src="images/preloader.gif"></div>
+
+                    </form>
+
+                </section>
+
+                <section class="getin_touch_bottom"></section>
+
+            </section>
+
+
+
+            <section class="footer_link" data-scrollreveal="enter right">
+
+
+
+                <section class="footer_link_top">
+
+                    <h1>Address</h1>
+
+                    <p>
+                        IFFCO Sadan,<br> C-1,District Centre, Saket, <br>New Delhi-17<br>
+
+                    </p>
+
+
+
+                </section>
+
+
+
+                <section class="footer_link_bottom">
+
+                    <h1>Contact</h1>
+
+                    <p>
+                        PH: 011-26510001/42592626<br>
+
+                        Fax: 011-42592833/42592650<br>
+
+                        Email: <a style="width: auto; height: auto; float: none; margin: 0;" href="mailto:feedback.ikbl@iffco.in">feedback.ikbl@iffco.in</a>
+                    </p>
+
+                    <a class="facebook" href="#" target="_blank"></a>
+
+                    <a class="twitter" href="#" target="_blank"></a>
+
+                    <a class="linkdin" href="#" target="_blank"></a>
+
+                </section>
+
+            </section>
+
+
+
+            <section class="quick_link" data-scrollreveal="enter right">
+
+                <h1>Quick Links</h1>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="infrastructure.html">Infrastructure</a></li>
+
+                    <li><a href="management.html">Management</a></li>
+
+                    <li><a href="advantage.html">Advantage</a></li>
+<li><a href="tariff.html">Tariff</a></li>
+                    <li><a href="investor.html">Investor</a></li>
+
+                    <li><a href="gallery.html">Gallery</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </section>
+
+
+
+
+
+        </div>
+
+    </footer>
+
+
+
+    <div class="footer_bottom" data-scrollreveal="enter bottom">
+
+        <div class="footer_inner">
+
+           <section class="copyright">
+        Copyright <span id="current-year"> </span> &copy; IKLL
+    </section>
+
+            <section class="created">Created by <a href="http://www.eyebridge.in/" target="_blank">Eyebridge</a>&nbsp;&nbsp;<span><a href="http://www.eyebridge.in/" target="_blank"><img src="images/eyebridge.jpg" alt=""></a></span></section>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+
+        $(".benefit_container ul li").hover(function () {
+
+            $(this).find(".benefit_hide_heading ").stop(true, true).animate({ bottom: '0px' });
+
+            $(this).find(".benefit_heading").stop(true, true).fadeOut();
+
+        }, function () {
+
+            $(this).find(".benefit_heading").stop(true, true).fadeIn();
+
+            $(this).find(".benefit_hide_heading ").stop(true, true).animate({ bottom: '-55%' });
+
+        });
+
+    </script>
+
+
+
+    <script>
+
+        $('.toggle_nav').click(function () {
+
+            $('nav').slideToggle();
+
+        });
+
+    </script>
+
+
+
+    <script>
+
+        var windowWidth = $(window).width();
+
+        if ($(window).width() < 999) {
+
+
+
+            $("#dropDown").click(function () {
+
+                $("#drop_down_menu ").slideToggle();
+
+            });
+
+
+
+        }
+
+        if ($(window).width() >= 1000) {
+
+            $("#dropDown").hover(function () {
+
+                $(this).find("#drop_down_menu ").stop(true, true).fadeIn();
+
+            }, function () {
+
+                $(this).find("#drop_down_menu").stop(true, true).fadeOut();
+
+            });
+
+        }
+
+    </script>
+
+
+
+    <script type="text/javascript" src="js/scrollreveal.js"></script>
+
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <script type="text/javascript" src="js/jquery.ufvalidator-1.0.4.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/validation-error.css" />
+
+
+
+</body>
+
+</html>
