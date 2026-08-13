@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IKBL</title>
+<title>IKLL</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     
@@ -10,6 +10,50 @@
 <link rel="stylesheet" href="css/responsive.css">
 <script src="js/jquery.js"></script>
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
+ 
+<style>
+.board-members {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 0;
+  
+}
+
+.board-members li {
+  /* text-align: center; */
+  width: 500px; /*control total width per member */
+   
+}
+
+.board-members figure {
+  width: 150px; /* uniform image area */
+  height: 150px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  border-radius: 50%; /* optional: makes circular images */
+ 
+}
+
+.board-members img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures image scales & crops evenly */
+
+    
+}
+
+.people_viewMore a:hover{background: #047fd7;}
+
+.people_viewMore{float:left;width: 100%; margin: 55px -100px 0 0px;}
+.people_viewMore a{float: right; padding: 7px 20px; font-family: 'Conv_Gotham-Medium'; font-size: 13px; color: #fff; text-transform: uppercase; background: #0690f3; border-bottom: 1px solid #047fd7;}
+
+
+  
+</style>
+
 
 </head>
 
@@ -24,6 +68,8 @@
 <li><a href="infrastructure.html">Infrastructure</a></li>
 <li><a href="management.html">Management</a></li>
 <li><a href="advantage.html">Advantage</a></li>
+<li><a href="tariff.html">Tariff</a></li>
+<!-- <li><a href="pdf/tariff_pdf.pdf" target="_blank">Tariff</a></li> -->
 <li><a href="investor.html">Investor</a></li>
 <li><a href="gallery.html">Gallery</a></li>
 <li><a href="contact.html">Contact</a></li>
@@ -132,80 +178,35 @@
         <p>The management board is responsible for smooth running of the company in terms of financial, operational, legal and business development matters, including investment and strategic initiatives, which concerns the IKLL group portfolio.</p>        
     </section>
     <section class="people_right" data-scrollreveal="enter right">
-        <ul>
+       <ul class="board-members" >
+
+        <li>        
+            <figure ><img src="images/chairman.png" alt=""></figure>
+                <h2 style=" left: 2px; width: 200px; ">Mr. Dileep Sanghani </h2> 
+                <h4>Chairman </h4>              
+        </li> 
+                      
             <li>
-                <figure><img src="images/balvinder-singh.jpg" alt=""></figure>
-                <h2>Mr. B. S Nakai</h2>
-                <p>Chairman</p>
+                <figure><img src="images/k-j-patel.jpg" alt=""></figure>
+                <h2>Mr. K. J. Patel </h2>
+                 <h4>Nominee Director</h4>
             </li>
-            
-            <li>
-                <figure><img src="images/u-s-awasthi.jpg" alt=""></figure>
-                <h2>Dr. U. S. Awasthi</h2>
-                <p>Nominee Director</p>
-            </li>
-            <li>
-                <figure><img src="images/rakesh-kapur.jpg" alt=""></figure>
-                <h2>Mr. Rakesh Kapur</h2>
-                <p>Nominee Director</p>
-            </li> 
-<li>
-                <figure><img src="images/k-l-singh.jpg" alt=""></figure>
-                <h2>Mr. K. L. Singh</h2>
-                <p>Managing Director</p>
-            </li>           
+            <!-- <li>
+                <figure><img src="images/ramesh-kumar.png" alt=""></figure>
+                <h2>Mr. Ramesh Kumar</h2>
+                <h4>Nominee Director</h4>
+            </li>  -->
+   
         </ul>
-        <section class="people_viewMore"><a href="management.html">View More</a></section>
+
+          
+
+        <div class="people_viewMore"><a href="management.html">View More</a></div>
     </section>
     
     </div>
 </section>
-
-<!--    <section class="latestNews_container" data-scrollreveal="enter bottom">
-    <div class="latestNews_inner">
-        <h1>Latest News</h1>
-        <p>Our updates will not only give you a glimpse of the upcoming news, but also keep you abreast of the logistics Industry</p>
-        <ul>
-            <li data-scrollreveal="enter left">
-                <section class="date">10<br>Jul</section>
-                <figure><img src="images/news1.jpg" alt=""></figure>
-                <section class="latestNews_txt_container">
-                <h2>IKBL launches joint venture with Mitsubishi Corp</h2>
-                <section class="yellow_hr"></section>
-                <p>Lorem Ipsum available but the majority have suffered alteration some form, by injected humouror</p>
-                </section>
-            </li>
-            <li class="mrg_right" data-scrollreveal="enter right">
-                <section class="date">15<br>Jul</section>
-                <figure><img src="images/news2.jpg" alt=""></figure>
-                <section class="latestNews_txt_container">
-                <h2>IFFCO forms agrochem JV with Mitsubishi Corp</h2>
-                <section class="yellow_hr"></section>
-                <p>Lorem Ipsum available but the majority have suffered alteration some form, by injected humouror</p>
-                </section>
-            </li>
-            <li data-scrollreveal="enter left">
-                <section class="date">16<br>Jul</section>
-                <figure><img src="images/news3.jpg" alt=""></figure>
-                <section class="latestNews_txt_container">
-                <h2>IKBLto disinvest from NCML completely</h2>
-                <section class="yellow_hr"></section>
-                <p>Lorem Ipsum available but the majority have suffered alteration some form, by injected humouror</p>
-                </section>
-            </li>
-            <li class="mrg_right" data-scrollreveal="enter right">
-                <section class="date">21<br>Jul</section>
-                <figure><img src="images/news4.jpg" alt=""></figure>
-                <section class="latestNews_txt_container">
-                <h2>IKBLto disinvest from NCML completely</h2>
-                <section class="yellow_hr"></section>
-                <p>Lorem Ipsum available but the majority have suffered alteration some form, by injected humouror</p>
-                </section>
-            </li>
-        </ul>
-    </div>
-</section>
--->
+ 
 <footer>
     <section class="blank_footer" style="background:url(images/benefit-bg.jpg) repeat 0 0;"></section>
     <div class="footer_inner">       
@@ -259,6 +260,7 @@ Email: <a style="width: auto; height: auto; float: none; margin: 0;" href="mailt
 <li><a href="infrastructure.html">Infrastructure</a></li>
 <li><a href="management.html">Management</a></li>
 <li><a href="advantage.html">Advantage</a></li>
+<li><a href="tariff.html">Tariff</a></li>
 <li><a href="investor.html">Investor</a></li>
 <li><a href="gallery.html">Gallery</a></li>
 <li><a href="contact.html">Contact</a></li>
@@ -271,8 +273,8 @@ Email: <a style="width: auto; height: auto; float: none; margin: 0;" href="mailt
 
 <div class="footer_bottom" data-scrollreveal="enter bottom">
 <div class="footer_inner">
-<section class="copyright">Copyright 2015 &copy; IKBL</section>
-<section class="created">Created by <a href="http://www.eyebridge.in/" target="_blank">Eyebridge</a>&nbsp;&nbsp;<span><a href="http://www.eyebridge.in/" target="_blank"><img src="images/eyebridge.jpg" alt=""></a></span></section>
+<section class="copyright">Copyright 2015 &copy; IKLL</section>
+ 
 </div>
 </div>
 
