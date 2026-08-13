@@ -10,42 +10,52 @@
 <link rel="stylesheet" href="css/responsive.css">
 <script src="js/jquery.js"></script>
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
 <style>
 .about_people_right ul li {
-    
-    min-height:236px;
-	    width: 15%;
+    min-height: 236px;
 }
+
+/* Team list */
 .myUL {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-direction: row; /* Change to row */
-    justify-content: center; /* Centers items horizontally */
-    flex-wrap: wrap; /* Allows wrapping if screen is too small */
-    gap: 20px; /* Adds spacing between items */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .myUL li {
     text-align: center;
-    width: 300px; /* Adjust width as needed */
+    width: 300px;
 }
+
+/* Team profile images */
+.myUL li figure {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.myUL li figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Popup images */
 .team_popup img {
-  width: 180px;         /* Set a fixed width */
-  height: 180px;        /* Set a fixed height */
-  object-fit: cover;    /* Ensures the image scales/crops nicely */
-  /* border-radius: 10px;   Optional – gives rounded corners */
-  display: block;
-  /* margin: 0 auto 15px;    Centers image and adds space below */
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
 }
-
-
-.about_people_continer{float: left; width: 100%; background:#129a4c; border-top:13px solid #168646; padding: 73px 0 62px 0px;} */
-
-
-
-
 </style>
+
 </head>
 
 <body>
@@ -127,27 +137,7 @@
                 <p>Nominee Director</p>
             </li>
 
-                
-            <li>
-                
-                
-                                <section class="about_people_hover" >
-                    <p>Mr. Rakesh Kapur holds the position of Nominee Director in IFFCO. Mr Kapur is also responsible for the Finance Division of IFFCO.</p>
-                <section class="people_sm">
-                  
-                    <a class="people_view inline" href="#team-popup3">View More</a>
-                </section>
-                </section>
-
-                
-                <figure><img src="images/rakesh-kapur.jpg" alt=""></figure>
-                <h2>Mr. Rakesh Kapur</h2>
-                <p>Nominee Director</p>
-            </li>
-            </ul>
-
-            <ul>
- <li>                
+                 <li>                
             <section class="about_people_hover">
             <p>Mr. Arun Kumar Sharma is currently occupying the position of  Managing Director and CEO in IKLL..</p>
                      
@@ -162,6 +152,11 @@
                 <h2>Mr. Arun Kumar Sharma</h2>
                 <p>Managing Director and CEO </p>
             </li>
+           
+            </ul>
+
+            <ul>
+
             
             
                 
@@ -178,6 +173,25 @@
                 
                 <figure><img src="images/yogendra-ji.jpg" alt=""></figure>
                 <h2>Mr. Yogendra kumar</h2>
+                <p>Nominee Director</p>
+            </li>
+
+             <li>
+                
+                
+                                <section class="about_people_hover" >
+                    <p>He is serving as Director (HR &amp; Legal) at
+                                Indian Farmers Fertiliser Cooperative Limited (IFFCO), Head Office, Delhi...
+                            </p>
+                <section class="people_sm">
+                  
+                    <a class="people_view inline" href="#team-popup3">View More</a>
+                </section>
+                </section>
+
+                
+                <figure><img src="images/ramesh-kumar.png" alt=""></figure>
+                <h2>Mr. Ramesh Kumar</h2>
                 <p>Nominee Director</p>
             </li>
 
@@ -329,7 +343,7 @@ Email: <a style="width: auto; height: auto; float: none; margin: 0;" href="mailt
     
 
  
-<section class="created">Created by <a href="http://www.eyebridge.in/" target="_blank">Eyebridge</a>&nbsp;&nbsp;<span><a href="http://www.eyebridge.in/" target="_blank"><img src="images/eyebridge.jpg" alt=""></a></span></section>
+ 
 </div>
 </div>
 
@@ -385,14 +399,35 @@ His contributions have been instrumental in shaping IFFCO's technical roadmap an
 
 <div style='display:none'>
 <div id="team-popup3" class="team_popup">
-    <img alt="" src="images/rakesh-kapur.jpg">
-    <h1>Mr. Rakesh Kapur</h1>
+    <img alt="" src="images/ramesh-kumar.png">
+    <h1>Mr. Ramesh Kumar</h1>
     <h2>Nominee Director</h2>
-<p>Mr. Rakesh Kapur holds the position of Joint Managing Director & Chief Financial Officer in IFFCO. Mr Kapur is also responsible for the Finance Division of IFFCO. He is a Director on the Board of IFFCO's subsidiaries. He is also vested with the responsibility of Managing Director of IFFCO's subsidiaries like IFFCO Kisan Special Economic Zone (IKSEZ), Nellore and IFFCO Kisan Sanchar Limited (IKSL).</p>
-<p>Mr. Kapur joined IFFCO on 5th October 2000 as Executive Director (Finance) and took over the charge of Finance Director with effect from November 7, 2001. He has been responsible for planning, managing and monitoring all finance and accounts related functions of IFFCO. He has also been extensively involved with all the new Projects, Acquisitions, Joint Ventures and Diversification initiatives of IFFCO from their stage of inception.</p>
-<p>Mr. Rakesh Kapur is an ex-IRS Officer of 1978 Batch, who was holding the rank of Commissioner of Income Tax in his parent cadre before he was absorbed in IFFCO in October 2005. He was awarded the Best Probationer's Silver Medal in the IRS Batch by the National Academy of Direct Taxes, Nagpur. He has wide experience in Finance, Management, Business Strategising, Accounts and Taxation. He held various senior assignments in the Government of India, which included Joint Secretary (Commercial), Telecom Regulatory Authority of India (TRAI); Director in the Ministry of Chemicals & Fertilizers, Department of Fertilizers; Additional Assessor & Collector, Municipal Corporation of Delhi apart from the postings in the Income Tax Department as Additional Commissioner of Income Tax, Deputy / Jt. Commissioner of Income Tax since 1978. 
-    He had also worked in Technical Services Department of the Indian Oil Corporation Ltd. (Marketing Division) during 1975-78.</p>
-<p>Mr. Kapur was born on September 26, 1954. He holds B.Tech. Degree in Mechanical Engineering (in First Class with Distinction) from Indian Institute of Technology (IIT), New Delhi and a Post Graduation in Management. He has travelled widely and participated in various national and international Seminars and Conferences, and presented papers on different subjects.</p>
+
+    <p>
+                Mr. Ramesh Kumar is a Non-Executive Director on the Board of IFFCO Kisan Logistics Limited. He is
+                serving as Director (HR &amp; Legal) at Indian Farmers Fertiliser Cooperative Limited (IFFCO), Head
+                Office, Delhi. He brings with him around 45 years of rich and diverse experience in the field of Human
+                Resource Management and Industrial Relations, with a proven track record in building and strengthening
+                people-centric institutions.
+            </p>
+
+            <p>
+                Over the course of his career, Mr. Kumar has played a pivotal role in the design and implementation of
+                robust HR systems, including strategic manpower planning and sourcing, performance management systems
+                (PMS), learning &amp; development (L&amp;D) frameworks, and legal &amp; industrial relations mechanisms.
+                His leadership has contributed significantly to organizational effectiveness, workforce capability
+                building, and harmonious industrial relations.
+            </p>
+
+            <p>
+                Mr. Kumar has been recognized with several awards for his outstanding contributions to the HR function,
+                reflecting his commitment to excellence, ethical governance and employee development. He holds a Post
+                Graduate degree in Personnel Management and Industrial Relations from Xavier Institute of Social Service
+                (XISS), Ranchi.
+            </p>
+
+
+
 </div>
 </div>
 
